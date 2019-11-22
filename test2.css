@@ -1,0 +1,803 @@
+
+
+
+@font-face {
+font-family: Roboto-Regular;
+src: url(font/Roboto-Regular.ttf);
+}
+
+
+*{
+margin: 0;
+padding: 0;
+font-family: Roboto-Regular;
+color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.glav_fon {
+    /* background: blue; */
+    background: linear-gradient(to right, #4c46f4, #469af4);
+    height: 823px;
+
+
+}
+
+.glav_bod_block {
+    margin: 0 auto;
+    max-width: 1153px;
+    height: 823px;
+}
+
+/* Главная блок 1 */
+
+.glav_block_1 {
+    width: 100%;
+    height: 107px;
+    /* background: red; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: row; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.text_logo {
+    width: 125px;
+
+    font-size: 14px;
+
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+
+    margin-left: 16px;
+}
+
+.text_logo span {
+    font-size: 10px;
+}
+
+.logo_geo_block_none {
+    width: 550px;
+    /* width: 100%; */
+}
+
+.geo_tel {
+    /* background: red; */
+    font-size: 16px;
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: space-between ; */
+
+    /* width: 362px; */
+
+}
+
+.geo {
+    width: 147px;
+    margin-right: 42px;
+    display: flex;
+}
+
+.tel {
+    width: 152px;
+    display: flex;
+}
+
+.geo img {
+    width: 13px;
+    height: 19px;
+    margin-right: 13px;
+}
+
+.tel img {
+    width: 12px;
+    height: 19px;
+    margin-right: 13px;
+}
+
+/* Главная блок 2 */
+
+.glav_block_2 {
+
+    width: 100%;
+    height: 49px;
+    background: rgba(0, 0, 0, 0.150)  ;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+.glav_block_2 div {
+    margin-right: 33px;
+}
+
+.glav_block_3 {
+    display: flex;
+    align-items: center;
+    height: 667px;
+
+}
+
+.glav_block_3 > img {
+    width: 545px;
+    height: 545px;
+    /* margin: -590px 0 0 123px; */
+    margin-left: 123px;
+    opacity: 15%;
+    position: absolute;
+
+}
+
+.glav_tx-pc {
+    /* background: red; */
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    width: 100%;
+}
+
+.glav_tx-pc > img {
+    width: 584px;
+    height: 399px;
+    z-index: 100;
+    margin-left: -50px;
+
+}
+
+.tx_all {
+    z-index: 100;
+}
+
+.glav_tx_1 {
+    font-size: 54px;
+    margin-bottom: 48px;
+    /* margin-top: 134px; */
+    /* position: absolute; */
+    /* width: 620px; */
+    white-space: nowrap;
+}
+
+.glav_tx_2 {
+    font-size: 20px;
+    margin-bottom: 24px;
+    
+}
+
+.glav_tx_3 {
+    font-size: 18px;
+}
+
+
+/* Наши преимущества */
+
+.preim_fon {
+    /* background: blue; */
+    width: 100%;
+    height: 909px;
+
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    /* justify-content: center; */
+
+    padding-top: 60px;
+    box-sizing: border-box;
+
+}
+
+.preim_block_1 {
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+    /* margin-top: 60px; */
+    margin-bottom: 96px;
+
+}
+
+.preim_tx_bl1 {
+    font-size: 36px;
+    color: #2c3641;
+    white-space: nowrap;
+    margin: 0 36px 0 36px;
+}
+
+.preim_line {
+    background: #4786f4;
+    height: 3px;
+    width: 100%;
+    border-radius: 1.5px;
+}
+
+
+
+
+
+.prem_bod-kub-fon {
+    /* background: rgb(234, 0, 255); */
+    width: 1153px;
+    margin: auto;
+
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+
+.preim_kub-fon {
+    /* background: red; */
+    /* width: 100%; */
+
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    
+    /* white-space: nowrap; */
+    /* align-items: center; */
+    flex-direction: column;
+    /* margin-top: 200px; */
+
+}
+
+
+
+
+.preim_ic1 {
+    /* background: black; */
+    margin-bottom: 143px;
+
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* width: 100%; */
+    /* width: 412px; */
+    /* margin: 0 50px 0 50px; */
+}
+
+
+
+
+.preim_ic1 img {
+    width: 174px;
+    height: 174px;
+    
+}
+
+.preim_ic1 div span {
+    background: rgba(71, 134, 244, 0.300);
+    color: #2c3641;
+    border-radius: 5px;
+}
+
+.pr_tx {
+    color: #2c3641;
+    font-size: 20px;
+    margin-bottom: 33px;
+    white-space: nowrap;
+    
+}
+
+.preim_ic1_2 {
+    /* background: black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 412px; */
+}
+
+.preim_ic1_2 img {
+    width: 216px;
+    height: 174px;
+    
+}
+
+.preim_ic1_2 div span {
+    background: rgba(71, 134, 244, 0.300);
+    color: #2c3641;
+    border-radius: 5px;
+}
+
+
+/* Наши услуги */
+
+.uslug_fon {
+    /* background: red; */
+    width: 100%;
+    height: 969px;
+
+    /* center top no-repeat ??? */
+    background: url(images/6234634.jpg) center top no-repeat ;
+
+}
+
+.uslug_fon_grad {
+    /* background: blue; */
+    background: linear-gradient(to right, rgba(76, 70, 244, 0.910), rgba(70, 154, 244, 0.910));
+    width: 100%;
+    height: 100%;
+    /* opacity: 91%; */
+
+    box-sizing: border-box;
+    padding-top: 60px;
+
+    
+}
+
+.uslug_block_1 {
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+    /* margin-top: 60px; */
+    margin-bottom: 96px;
+
+}
+
+.uslug_tx_bl1 {
+    font-size: 36px;
+    color: #ffffff;
+    white-space: nowrap;
+    margin: 0 36px 0 36px;
+}
+
+.uslug_line {
+    background: #ffffff;
+    height: 3px;
+    width: 100%;
+    border-radius: 1.5px;
+}
+
+
+.uslug_bod {
+    /* background: rgba(255, 0, 0, 0.397); */
+    width: 1153px;
+    /* height: 900px; */
+    margin: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
+.uslug_block-us {
+    width: 247px;
+    height: 299px;
+    background: rgba(0, 0, 0, 0.100);
+    /* opacity: 100% ; */
+    font-size: 20px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+
+    margin-bottom: 55px;
+}
+
+.uslug_block-us > img {
+    width: 76px;
+    height: 76px;
+    margin-bottom: 49px;
+}
+
+.us-to-tx {
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+
+.us-line {
+    background: white;
+    width: 100%;
+    height: 3px;
+    /* opacity: 100%; */
+    /* margin-bottom: 100px; */
+    margin-bottom: 39px;
+
+    border-radius: 1.5px ;
+}
+
+
+
+.us-price {
+    background: rgba(0, 0, 0, 0.270);
+    width: 100%;
+    height: 33px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 35px;
+}
+
+
+/* Сотрудничество */
+
+.sot_fon {
+    /* background: red; */
+    width: 100%;
+    height: 860px;
+
+    background: url(images/cooperation.jpg)  round  ;
+
+
+
+}
+
+.sot_fon_grad {
+    /* background: blue; */
+    background: linear-gradient(to right, rgba(76, 70, 244, 0.910), rgba(70, 154, 244, 0.910));
+    width: 100%;
+    height: 100%;
+    /* opacity: 91%; */
+
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+
+.sotr_bod {
+    /* background: red; */
+    width: 1153px;
+    margin: auto;
+
+}
+
+.sotr-tx {
+    color: white;
+    font-size: 28px;
+
+    margin-bottom: 101px;
+}
+
+.sotr_blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sotr_block1 {
+    width: 563px;
+    height: 433px;
+    background: rgba(0, 0, 0, 0.100);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 5px;
+
+}
+
+.sotr_block1-tx {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    margin-top: 57px;
+    margin-bottom: 50px;
+
+}
+
+.sotr_block1-icon {
+    width: 219px;
+    height: 223px;
+}
+
+.sotr_block2 {
+    width: 495px;
+    height: 433px;
+    background: rgba(0, 0, 0, 0.100);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 5px;
+
+}
+
+.sotr_block2-tx {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+    margin-top: 57px;
+    margin-bottom: 50px;
+
+}
+
+.sotr_block2-icon {
+    width: 275px;
+    height: 223px;
+}
+
+
+
+/* Отзывы */
+
+.otz_fon {
+    background: white;
+    width: 100%;
+    height: 1295px;
+
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.otz_bod {
+    /* background: red; */
+    max-width: 1153px;
+    height: 500px;
+    margin: auto;
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+
+
+
+.otz_block {
+    /* background: rgba(0, 0, 255, 0.164); */
+    width: 100%;
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+
+
+}
+
+.otz_block-img1 {
+    /* background: red; */
+    background-image: url(images/234235.png);
+
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+    border: 10px solid #4786f4;
+
+    /* position: absolute; */
+
+    z-index: 100;
+    flex-shrink: 0 ;
+    /* box-sizing: border-box; */
+}
+
+    .otz_block-img2 {
+        /* background: red; */
+        background-image: url(images/9079870.png);
+
+        width: 210px;
+        height: 210px;
+        border-radius: 100%;
+        border: 10px solid #4786f4;
+
+        /* position: absolute; */
+
+        z-index: 100;
+        flex-shrink: 0 ;
+        /* box-sizing: border-box; */
+    }
+
+        .otz_block-img3 {
+            /* background: red; */
+            background-image: url(images/8758598.png);
+
+            width: 210px;
+            height: 210px;
+            border-radius: 100%;
+            border: 10px solid #4786f4;
+
+            /* position: absolute; */
+
+            z-index: 100;
+            flex-shrink: 0 ;
+            /* box-sizing: border-box; */
+        }
+
+            .otz_block-img4 {
+                /* background: red; */
+                background-image: url(images/76898.png);
+
+                width: 210px;
+                height: 210px;
+                border-radius: 100%;
+                border: 10px solid #4786f4;
+
+                /* position: absolute; */
+
+                z-index: 100;
+                flex-shrink: 0 ;
+                /* box-sizing: border-box; */
+            }
+
+.otz_block-name {
+    color: #2c3641;
+    font-size: 28px;
+
+    margin-bottom: 14px;
+    margin-left: 14px;
+
+    /* box-sizing: content-box; */
+}
+
+.otz_block-tx {
+    background: #4786f4;
+    /* width: 1070px; */
+    /* height: 130px; */
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    text-align: justify ;
+
+    margin-left: -100px;
+    padding: 15px 15px 15px 110px ;
+
+}
+
+    .otz_block-name2 {
+        color: #2c3641;
+        font-size: 28px;
+
+        margin-bottom: 14px;
+        margin-left: 834px;
+
+        /* box-sizing: content-box; */
+    }
+
+    .otz_block-tx2 {
+        background: #4786f4;
+        /* width: 1070px; */
+        /* height: 130px; */
+        border-radius: 3px;
+        font-size: 20px;
+        color: white;
+        text-align: justify ;
+
+        margin-right: -100px;
+        padding: 15px 110px 15px 15px ;
+}
+
+
+
+
+/* Контакты */
+
+.kon_fon {
+    background: white;
+    width: 100%;
+    height: 100%;
+
+    padding-top: 60px;
+    box-sizing: border-box;
+
+}
+
+.kon_fon_grad {
+    /* background: blue; */
+    background: linear-gradient(to right, rgba(76, 70, 244, 0.910), rgba(70, 154, 244, 0.910));
+    width: 100%;
+    height: 932px;
+    /* opacity: 91%; */
+
+    box-sizing: border-box;
+    padding-top: 60px;
+
+    
+}
+
+.kon_bod {
+    /* background: red; */
+    max-width: 1153px;
+    /* height: 932px; */
+    margin: auto;
+
+    /* padding-top: 30px; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.kon-tx {
+    color: #f0f0f0;
+    font-size: 20px;
+}
+
+.kon-tx-a {
+    color: white;
+    /* font-weight: 500 ; */
+    font-size: 22px;
+    
+}
+
+.kon-tx-sp1 {
+    word-spacing: 40px;
+
+}
+
+    .kon-tx-sp2 {
+        word-spacing: 187px;
+
+    }
+
+        .kon-tx-sp3 {
+            word-spacing: 142px;
+}
+
+
+
+
+
+/* Подвал */
+
+.fut_fon {
+    background: rgba(0, 0, 0, 0.700);
+    width: 100%;
+    height: 36px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fut-tx {
+    font-size: 12px;
+    color: rgb(197, 196, 196);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
