@@ -37,16 +37,17 @@ a {
 
 .glav_fon {
     /* background: blue; */
+    /* width: 100%; */
     background: linear-gradient(to right, #4c46f4, #469af4);
-    height: 823px;
-
+    /* height: 823px; */
+    /* height: 1000px; */
 
 }
 
 .glav_bod_block {
     margin: 0 auto;
     max-width: 1153px;
-    height: 823px;
+    /* height: 823px; */
 }
 
 /* Главная блок 1 */
@@ -135,52 +136,78 @@ a {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    /* flex-wrap: wrap; */
     font-size: 16px;
     border-radius: 3px;
+    white-space: nowrap;
 }
 
 .glav_block_2 div {
     margin-right: 33px;
 }
 
+
+
+
+
+
+
+/* Главная блок 3 */
+
 .glav_block_3 {
+    /* background: rgb(255, 0, 0); */
+    width: 100%;
     display: flex;
     align-items: center;
-    height: 667px;
+    /* justify-content: center; */
+    height: 567px;
 
 }
 
-.glav_block_3 > img {
-    width: 545px;
-    height: 545px;
-    /* margin: -590px 0 0 123px; */
+/* .glav_block_3 > img {
+    max-width: 545px;
     margin-left: 123px;
     opacity: 15%;
     position: absolute;
-
-}
+} */
 
 .glav_tx-pc {
+    width: 100%;
     /* background: red; */
     display: flex;
-    /* align-items: center; */
-    /* justify-content: space-around; */
-    width: 100%;
+    /* flex-direction: column; */
+    align-items: center;
+    /* justify-content: space-between; */
+    /* max-width: 100%; */
+    /* flex-shrink: 1; */
 }
 
-.glav_tx-pc > img {
-    width: 584px;
-    height: 399px;
-    z-index: 100;
-    margin-left: -50px;
 
+
+
+
+
+.glav_tx-pc  img {
+    /* background: rgba(255, 255, 0, 0.274); */
+    /* max-width: 584px; */
+    width: 100%;
+    /* height: 399px; */
+    z-index: 100;
+    /* margin-left: -50px; */
+    /* position: absolute; */
+    /* flex-shrink: 1; */
+
+    /* display: flex;
+    align-self: flex-end; */
 }
 
 .tx_all {
+    /* background: rgba(0, 255, 21, 0.212); */
     z-index: 100;
 }
 
 .glav_tx_1 {
+    /* background: rgba(0, 0, 255, 0.329); */
     font-size: 54px;
     margin-bottom: 48px;
     /* margin-top: 134px; */
@@ -190,13 +217,17 @@ a {
 }
 
 .glav_tx_2 {
+    /* background: rgba(195, 0, 255, 0.308); */
     font-size: 20px;
     margin-bottom: 24px;
+    /* width: 200px; */
     
 }
 
 .glav_tx_3 {
+    /* background: rgba(195, 0, 255, 0.308); */
     font-size: 18px;
+    /* width: 200px; */
 }
 
 
@@ -206,6 +237,7 @@ a {
     /* background: blue; */
     width: 100%;
     height: 909px;
+    /* height: 100%; */
 
     /* display: flex;
     align-items: center;
@@ -248,12 +280,13 @@ a {
 
 .prem_bod-kub-fon {
     /* background: rgb(234, 0, 255); */
-    width: 1153px;
+    max-width: 1153px;
     margin: auto;
 
     display: flex;
     /* flex-direction: column; */
     justify-content: space-between;
+    /* flex-wrap: wrap; */
 }
 
 
@@ -386,13 +419,14 @@ a {
 
 .uslug_bod {
     /* background: rgba(255, 0, 0, 0.397); */
-    width: 1153px;
+    max-width: 1153px;
     /* height: 900px; */
     margin: auto;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between ;
+    /* align-items: center; */
 }
 
 .uslug_block-us {
@@ -474,12 +508,13 @@ a {
 
 .sotr_bod {
     /* background: red; */
-    width: 1153px;
+    max-width: 1153px;
     margin: auto;
 
 }
 
 .sotr-tx {
+    /* background: red; */
     color: white;
     font-size: 28px;
 
@@ -566,9 +601,10 @@ a {
     height: 500px;
     margin: auto;
 
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* justify-content: space-around; */
 }
 
 
@@ -579,10 +615,25 @@ a {
     /* height: 500px; */
     display: flex;
     align-items: center;
+    /* flex-direction: row-reverse; */
     margin-bottom: 60px;
-
-
 }
+
+.otz_block_name-tx {
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+}
+
+    .otz_block_name-tx2 {
+        /* background: red; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+}
+
 
 .otz_block-img1 {
     /* background: red; */
@@ -646,7 +697,7 @@ a {
                 z-index: 100;
                 flex-shrink: 0 ;
                 /* box-sizing: border-box; */
-            }
+}
 
 .otz_block-name {
     color: #2c3641;
@@ -660,8 +711,7 @@ a {
 
 .otz_block-tx {
     background: #4786f4;
-    /* width: 1070px; */
-    /* height: 130px; */
+    /* width: 100%; */
     border-radius: 3px;
     font-size: 20px;
     color: white;
@@ -670,6 +720,8 @@ a {
     margin-left: -100px;
     padding: 15px 15px 15px 110px ;
 
+
+
 }
 
     .otz_block-name2 {
@@ -677,7 +729,7 @@ a {
         font-size: 28px;
 
         margin-bottom: 14px;
-        margin-left: 834px;
+        margin-right: 14px;
 
         /* box-sizing: content-box; */
     }
@@ -726,6 +778,7 @@ a {
 .kon_bod {
     /* background: red; */
     max-width: 1153px;
+    width: 100%;
     /* height: 932px; */
     margin: auto;
 
@@ -740,6 +793,7 @@ a {
 .kon-tx {
     color: #f0f0f0;
     font-size: 20px;
+    white-space: nowrap;
 }
 
 .kon-tx-a {
@@ -763,7 +817,10 @@ a {
             word-spacing: 142px;
 }
 
-
+.kon-geo > img {
+    max-width: 585px;
+    width: 100%;
+}
 
 
 
@@ -783,6 +840,103 @@ a {
     font-size: 12px;
     color: rgb(197, 196, 196);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media  screen and (max-width: 1270px) {
+
+
+} */
+
+
+/* small screen */
+@media  screen and (max-width: 1200px) {
+    .glav_bod_block {
+        transform: scale(0.9);
+    }
+    
+    .prem_bod-kub-fon {
+        transform: scale(0.9);
+    }
+
+    .uslug_bod {
+        transform: scale(0.9);
+    }
+
+    .sotr_bod {
+        transform: scale(0.9);
+    }
+
+    .otz_bod {
+        transform: scale(0.9);
+    }
+
+    .kon_bod {
+        transform: scale(0.9);
+    }
+}
+
+/* laptop */
+@media  screen and (max-width: 992px) {
+    .glav_block_3 {
+
+        height: 467px;
+    
+    }
+
+
+
+}
+
+/* the tablet */
+/* @media screen and (max-width: 768px) {
+    .bod_2 {
+        max-width: 720px;
+        
+    }
+    
+} */
+
+/* phone */
+/* @media screen and (max-width: 576px) {
+    .bod_2 {
+        max-width: 100%;
+        
+    }
+    
+} */
+
+
+
+
+
+
+
+
+
 
 
 
