@@ -236,7 +236,7 @@ a {
 .preim_fon {
     /* background: blue; */
     width: 100%;
-    height: 909px;
+    /* height: 909px; */
     /* height: 100%; */
 
     /* display: flex;
@@ -882,7 +882,26 @@ a {
     
     .prem_bod-kub-fon {
         transform: scale(0.9);
+
+        /* max-width: 900px; */
+        justify-content: space-around;
+    
     }
+
+    .preim_kub-fon img {
+        width: 120px;
+        height: 120px;
+    }
+
+        .preim_ic1_2 img {
+            width: 130px;
+            height: 120px;
+            
+        }
+
+        .pr_tx {
+            font-size: 16px;
+        }
 
     .uslug_bod {
         transform: scale(0.9);
