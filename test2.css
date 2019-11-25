@@ -489,6 +489,7 @@ a {
     /* background: red; */
     width: 100%;
     height: 860px;
+    /* height: 100%; */
 
     background: url(images/cooperation.jpg)  round  ;
 
@@ -511,7 +512,10 @@ a {
     /* background: red; */
     max-width: 1153px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 
+    /* margin-top: -100px ; */
 }
 
 .sotr-tx {
@@ -520,6 +524,7 @@ a {
     font-size: 28px;
 
     margin-bottom: 101px;
+    align-self: center;
 }
 
 .sotr_blocks {
@@ -590,7 +595,7 @@ a {
 .otz_fon {
     background: white;
     width: 100%;
-    height: 1295px;
+    height: 1100px;
 
     padding-top: 60px;
     box-sizing: border-box;
@@ -632,6 +637,7 @@ a {
         /* background: red; */
         display: flex;
         flex-direction: column;
+        align-items: flex-end;
         /* justify-content: center; */
 }
 
@@ -639,9 +645,11 @@ a {
 .otz_block-img1 {
     /* background: red; */
     background-image: url(images/234235.png);
+    /* background-position: 0% 0%; */
+    background-size: cover ;
 
-    width: 210px;
-    height: 210px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     border: 10px solid #4786f4;
 
@@ -655,9 +663,11 @@ a {
     .otz_block-img2 {
         /* background: red; */
         background-image: url(images/9079870.png);
+        background-position: 50% 20%;
+        background-size: cover ;
 
-        width: 210px;
-        height: 210px;
+        width: 150px;
+        height: 150px;
         border-radius: 100%;
         border: 10px solid #4786f4;
 
@@ -671,9 +681,11 @@ a {
         .otz_block-img3 {
             /* background: red; */
             background-image: url(images/8758598.png);
+            /* background-position: 0% 0%; */
+            background-size: cover ;
 
-            width: 210px;
-            height: 210px;
+            width: 150px;
+            height: 150px;
             border-radius: 100%;
             border: 10px solid #4786f4;
 
@@ -687,9 +699,11 @@ a {
             .otz_block-img4 {
                 /* background: red; */
                 background-image: url(images/76898.png);
+                background-position: 0% 100%;
+                background-size: cover ;
 
-                width: 210px;
-                height: 210px;
+                width: 150px;
+                height: 150px;
                 border-radius: 100%;
                 border: 10px solid #4786f4;
 
@@ -702,51 +716,50 @@ a {
 
 .otz_block-name {
     color: #2c3641;
-    font-size: 28px;
+    font-size: 22px;
 
-    margin-bottom: 14px;
-    margin-left: 14px;
+    margin-bottom: 5px;
+    margin-left: 5px;
 
     /* box-sizing: content-box; */
 }
+
+    .otz_block-name2 {
+        color: #2c3641;
+        font-size: 22px;
+
+        margin-bottom: 5px;
+        margin-right: 5px;
+
+        /* box-sizing: content-box; */
+    }
 
 .otz_block-tx {
     background: #4786f4;
     /* width: 100%; */
     border-radius: 3px;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     text-align: justify ;
 
     margin-left: -100px;
     padding: 15px 15px 15px 110px ;
-
-
-
 }
-
-    .otz_block-name2 {
-        color: #2c3641;
-        font-size: 28px;
-
-        margin-bottom: 14px;
-        margin-right: 14px;
-
-        /* box-sizing: content-box; */
-    }
 
     .otz_block-tx2 {
         background: #4786f4;
         /* width: 1070px; */
         /* height: 130px; */
         border-radius: 3px;
-        font-size: 20px;
+        font-size: 16px;
         color: white;
         text-align: justify ;
 
         margin-right: -100px;
         padding: 15px 110px 15px 15px ;
-}
+    }
+
+
 
 
 
@@ -756,7 +769,8 @@ a {
 .kon_fon {
     background: white;
     width: 100%;
-    height: 100%;
+    height: 850px;
+    /* height: 100%; */
 
     padding-top: 60px;
     box-sizing: border-box;
@@ -767,7 +781,8 @@ a {
     /* background: blue; */
     background: linear-gradient(to right, rgba(76, 70, 244, 0.910), rgba(70, 154, 244, 0.910));
     width: 100%;
-    height: 932px;
+    height: 100%;
+    /* height: 932px; */
     /* opacity: 91%; */
 
     box-sizing: border-box;
@@ -788,6 +803,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* margin-bottom: 520px ; */
 
 }
 
@@ -868,6 +885,11 @@ a {
 
 
 
+
+
+
+
+
 /* @media  screen and (max-width: 1270px) {
 
 
@@ -879,19 +901,20 @@ a {
     .glav_bod_block {
         transform: scale(0.9);
     }
-    
+        .glav_block_3 {
+            height: 500px;
+        }
+        
+
     .prem_bod-kub-fon {
         transform: scale(0.9);
-
         /* max-width: 900px; */
         justify-content: space-around;
-    
     }
-
-    .preim_kub-fon img {
-        width: 120px;
-        height: 120px;
-    }
+        .preim_kub-fon img {
+            width: 120px;
+            height: 120px;
+        }
 
         .preim_ic1_2 img {
             width: 130px;
@@ -899,32 +922,119 @@ a {
             
         }
 
+        .preim_block_1 {
+            margin-bottom: 66px;
+        }
+
         .pr_tx {
             font-size: 16px;
         }
+
+        .preim_tx_bl1 {
+            font-size: 26px; 
+        }
+
+
 
     .uslug_bod {
         transform: scale(0.9);
     }
 
-    .sotr_bod {
-        transform: scale(0.9);
+        .uslug_block_1 {
+            margin-bottom: 66px;
+        }
+
+        .uslug_tx_bl1 {
+            font-size: 26px; 
+        }
+
+
+
+    .sot_fon {
+        height: 700px;
     }
+
+        .sotr_bod {
+            transform: scale(0.9);
+            margin-top: -10px ;
+            max-width: 900px;
+        }
+
+        .sotr-tx {
+            font-size: 20px ;
+            margin-bottom: 80px ;
+        }
+
+        .sotr_block1 {
+            width: 410px;
+            height: 333px;
+        }
+            .sotr_block1-tx {
+                font-size: 18px;
+                margin-top: 30px;
+                /* margin-bottom: 50px; */
+            }
+
+            .sotr_block1-icon {
+                width: 150px;
+                height: 150px;
+            }
+
+        .sotr_block2 {
+            width: 430px;
+            height: 333px;
+        }
+
+            .sotr_block2-tx {
+                font-size: 18px;
+                margin-top: 30px;
+            }
+
+            .sotr_block2-icon {
+                width: 170px;
+                height: 150px;
+            }
+
+
+
 
     .otz_bod {
         transform: scale(0.9);
     }
 
+
+
+
     .kon_bod {
         transform: scale(0.9);
     }
+        .kon-tx {
+            font-size: 16px ;
+        }
+        .kon-tx-a {
+            font-size: 18px;
+        }
 
-    .glav_block_3 {
+        .kon-tx-sp1 {
+            word-spacing: 40px;
+        }
+            .kon-tx-sp2 {
+                word-spacing: 157px;
+            }
+            .kon-tx-sp3 {
+                word-spacing: 120px;
+            }
 
-        height: 500px;
-    
-    }
+
+
+
+
 }
+
+
+
+
+
 
 /* laptop */
 @media  screen and (max-width: 992px) {
